@@ -1,0 +1,26 @@
+<view class="red-packet">
+  <view class="red-packet-layout {{ open ? 'red-packet-open' : '' }}" bind:tap="handleOpen">
+    <view class="red-packet-up" />
+    <view class="red-packet-middle" />
+    <view class="red-packet-content">
+      <view class="red-packet-scan" />
+      <view class="red-packet-tip">小美送红包</view>
+    </view>
+    <view class="red-packet-top" />
+    <view class="red-packet-bottom" />
+    <view class="red-packet-left" />
+    <view class="red-packet-right" />
+    <view class="red-money red-money-left1" />
+    <view class="red-money red-money-left2" />
+    <view class="red-money red-money-left3" />
+    <view class="red-money red-money-left4" />
+    <view class="red-money red-money-middle1" />
+    <view class="red-money red-money-middle2" />
+    <view class="red-money red-money-middle3" />
+    <view class="red-money red-money-middle4" />
+    <view class="red-money red-money-right1" />
+    <view class="red-money red-money-right2" />
+    <view class="red-money red-money-right3" />
+    <view class="red-money red-money-right4" />
+  </view>
+</view>
